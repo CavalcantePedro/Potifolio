@@ -12,7 +12,7 @@
 
 :root{
     --bg-color: #192433;
-    --second-bg-color: #1c2633;
+    --second-bg-color: #222e3f;
     --txt-color: #ffffff;
     --main-color: #3c77ad;
 }
@@ -20,7 +20,7 @@
 html
 {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -34,7 +34,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,18 +65,20 @@ body{
     color: var(--main-color);
 }
 
-.contato_bt{
-    color: var(--txt-color);
+.bt{
+    display: inline-block;
+    padding: 1rem 2.8rem;
     background: var(--main-color);
-    padding: 8px 15px;
-    font-size: 1.7rem;
-    border-radius: 10px;
-    border: 2px solid var(--main-color);
+    border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.7rem;
+    color: var(--txt-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
     transition: 0.5s ease;
 }
 
-.contato_bt:hover{
+.bt:hover{
     color: var(--main-color);
     background: transparent;
     box-shadow: none;

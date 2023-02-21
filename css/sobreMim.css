@@ -1,0 +1,33 @@
+.sobreMim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.imagem img{
+    width: 30vw;
+    border-radius: 50%;
+    animation: flutuar 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+
+.sobremimConteudo h2{
+    text-align: left;
+    line-height: 1.2;
+}
+ .sobremimConteudo h2 span{
+    color: var(--main-color);
+ }
+
+ .sobremimConteudo p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem ;
+ }

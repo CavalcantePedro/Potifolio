@@ -13,6 +13,8 @@ section{
     border-radius: 50%;
     width: 30vw;
     margin-right: 5rem;
+    animation: flutuar 4s ease-in-out infinite;
+    animation-delay: 3s;
 }
 
 .conteudo-inicio h3{
@@ -47,5 +49,16 @@ section{
     margin: 3rem 1.5rem 3rem 0;
 }
 
+@keyframes flutuar{
+    0%{
+        transform: translateY(0);
+    }
 
+    50%{
+        transform: translateY(-24px);
+    }
 
+    100%{
+        transform: translateY(0);
+    }
+}
