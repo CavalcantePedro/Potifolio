@@ -12,11 +12,19 @@
     margin-bottom: 6rem;
 }
 
-.iconsSkills, .iconsSkills a{
+.iconsSkills{
     text-align: center;
-    margin: 0 1rem 0 1rem;
-    color: var(--main-color);
     font-size: 9rem;    
+}
+
+.iconsSkills a{
+    color: var(--main-color);
+    margin: 0 1rem 0 1rem;
+    transition: 0.3s ease-in;
+}
+
+.iconsSkills a:hover{
+    font-size: 8rem;
 }
 
 .desc , .desc p{
@@ -24,3 +32,4 @@
     font-size: 1.7rem;
     margin-top: 3rem;
 }   
+
