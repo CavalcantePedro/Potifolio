@@ -1,0 +1,51 @@
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    border-radius: 50%;
+    width: 30vw;
+    margin-right: 5rem;
+}
+
+.conteudo-inicio h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.conteudo-inicio h3 span
+{
+    color: var(--main-color);
+}
+
+.conteudo-inicio h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.conteudo-inicio p{
+    font-size: 1.6rem;
+}
+
+.redes,
+.redes a{
+    color: var(--main-color);
+    display: inline;
+    justify-content:baseline;
+    align-items:center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+}
+
+
+
