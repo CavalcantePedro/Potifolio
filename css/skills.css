@@ -13,21 +13,25 @@
 }
 
 .iconsSkills{
-    text-align: center;
-    font-size: 9rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 0.3s;
+    font-size: 9rem;      
 }
 
-.iconsSkills a{
+.iconsSkills span{
     color: var(--main-color);
     margin: 0 1rem 0 1rem;
     transition: 0.3s ease-in;
 }
 
-.iconsSkills a:hover{
-    font-size: 8rem;
+.iconsSkills span:hover{
+    transform: scale(1.3);
 }
 
-.desc , .desc p{
+.desc{
     text-align: center;
     font-size: 1.7rem;
     margin-top: 3rem;

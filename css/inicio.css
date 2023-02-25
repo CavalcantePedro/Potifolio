@@ -22,8 +22,7 @@ section{
     font-weight: 700;
 }
 
-.conteudo-inicio h3 span
-{
+.conteudo-inicio h3 span{
     color: var(--main-color);
 }
 

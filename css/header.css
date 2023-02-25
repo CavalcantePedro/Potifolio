@@ -17,8 +17,7 @@
     --main-color: #3c77ad;
 }
 
-html
-{
+html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
