@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     background: var(--bg-color);
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
 
 .iconsSkills{
@@ -31,6 +33,7 @@
 }
 
 .desc{
+    display: block;
     text-align: center;
     font-size: 1.7rem;
     margin-top: 3rem;

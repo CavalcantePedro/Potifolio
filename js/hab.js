@@ -32,9 +32,11 @@ iconSkill.forEach( (element) =>
             break;
         }
     });
+    /*
     element.addEventListener('mouseout', (event) => 
     {
         desc.innerHTML= "<p>...</p>";
     });
+    */
 });
 
