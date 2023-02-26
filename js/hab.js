@@ -1,6 +1,6 @@
 const iconSkill = document.querySelectorAll('.bt_skill');
 
-iconSkill.forEach( (element, i) => 
+iconSkill.forEach( (element) => 
 {
     let desc = document.querySelector('.descHab');
     element.addEventListener('mouseover', (event) => 
@@ -24,6 +24,12 @@ iconSkill.forEach( (element, i) =>
             case "js":
                 desc.innerHTML = '<p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>'
                 break;
+            case "c":
+                desc.innerHTML = '<p>C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural.</p>'
+                break;
+            case "csharp":
+                desc.innerHTML = '<p>C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET.</p>'
+            break;
         }
     });
     element.addEventListener('mouseout', (event) => 

@@ -22,15 +22,16 @@
     <link rel="stylesheet" href="css/skills.css">    
     
 </head>
+
 <body>
     <!--Header-->
     <header class="header">
         <a href="#inicio" class="logo"><span>P</span>.C</a>
         <!--Barra de navegação-->
         <nav class="navegation">
-            <a href="#inicio" class="bt_inicio">Início</a>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#skills">Habilidades</a>
+            <a href="#inicio" id="bt_nav">Início</a>
+            <a href="#sobre"   id="bt_nav">Sobre mim</a>
+            <a href="#skills" id="bt_nav">Habilidades</a>
         </nav>
         <a href="#" class="bt">Contate-me</a>
     </header>
@@ -84,12 +85,29 @@
             </h2>
             <div class="iconsSkills">
                 <span class="bt_skill" id ="git"><i class='bx bxl-git'></i></span>
+
                 <span class="bt_skill" id="cpp"><i class='bx bxl-c-plus-plus'></i></span>
+
+                <span class="bt_skill" id="c">
+                    <img src="imgs/c-logo.svg" alt="">
+                </span>
+
+                <span class="bt_skill" id="csharp">
+                    <img src="imgs/c-sharp-logo.svg" alt="">
+                </span>
+
                 <span class="bt_skill" id="github"><i class='bx bxl-github'></i></span>
+
                 <span class="bt_skill" id="html"><i class='bx bxl-html5'></i></span>
+
                 <span class="bt_skill" id="css"><i class='bx bxl-css3'></i></span>
+
                 <span class="bt_skill" id="js"><i class='bx bxl-javascript'></i></span>
+
+                
+                
             </div>
+                
             <div class="desc">
                 <p class="descHab">...</p>
             </div>
@@ -97,5 +115,6 @@
     </section>
     
     <script src="js/hab.js"></script>
+    <script src="js/nav-bar.js"></script>
 </body>
 </html>
